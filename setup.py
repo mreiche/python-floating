@@ -13,6 +13,6 @@ setup(
     version="0.0.1",
     url="https://github.com/mreiche/python-floating",
     author="Mike Reiche",
-    py_modules=['floating.py'],
+    py_modules=['floating'],
     install_requires=[],
 )
