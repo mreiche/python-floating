@@ -28,12 +28,12 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: PYTHONPATH="." pytest --cov=floating tests/
-#    - name: Generate coverage report
-#      run: coverage xml
-#    - name: Upload coverage to Codecov
-#      uses: codecov/codecov-action@v3
-#      continue-on-error: true
-#      with:
-#        fail_ci_if_error: true
-#        files: ./coverage.xml
-#        verbose: true
+    - name: Generate coverage report
+      run: coverage xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      continue-on-error: true
+      with:
+        fail_ci_if_error: true
+        files: ./coverage.xml
+        verbose: true

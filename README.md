@@ -1,4 +1,5 @@
 ![Tests Status](https://github.com/mreiche/python-floating/actions/workflows/tests.yml/badge.svg)
+[![Code Coverage Status](https://codecov.io/github/mreiche/python-floating/branch/main/graph/badge.svg)](https://app.codecov.io/github/mreiche/python-floating)
 
 # python-floating
 
